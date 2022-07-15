@@ -1,0 +1,141 @@
+.bpmn-icon-task.red {
+    /* color: #cc0000 !important; */
+    color: #cc0000 ;
+}
+
+.icon-custom {
+    border-radius: 50%;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-custom.lindaidai-task {
+    position: relative;
+    /* background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png'); */
+    background-image: url('../assets/role2.png');
+    /* background-image: url('https://bkimg.cdn.bcebos.com/pic/a2cc7cd98d1001e942bbd325b60e7bec54e79711?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5/format,f_auto'); */
+}
+
+.icon-custom.chy-task {
+    position: relative;
+    /* background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png'); */
+    background-image: url('../assets/role4.png');
+    /* background-image: url('https://bkimg.cdn.bcebos.com/pic/a2cc7cd98d1001e942bbd325b60e7bec54e79711?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5/format,f_auto'); */
+}
+
+.icon-custom.robot-task {
+    position: relative;
+    /* background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png'); */
+    background-image: url('../assets/role6.png');
+    /* background-image: url('https://bkimg.cdn.bcebos.com/pic/a2cc7cd98d1001e942bbd325b60e7bec54e79711?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5/format,f_auto'); */
+}
+
+.icon-custom.lock-task {
+    position: relative;
+    /* background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png'); */
+    background-image: url('../assets/role5.png');
+    /* background-image: url('https://bkimg.cdn.bcebos.com/pic/a2cc7cd98d1001e942bbd325b60e7bec54e79711?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5/format,f_auto'); */
+}
+
+.icon-custom.voice-task {
+    position: relative;
+    /* background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png'); */
+    background-image: url('../assets/role7.png');
+    /* background-image: url('https://bkimg.cdn.bcebos.com/pic/a2cc7cd98d1001e942bbd325b60e7bec54e79711?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5/format,f_auto'); */
+}
+
+.icon-custom.read-task {
+    position: relative;
+    /* background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png'); */
+    background-image: url('../assets/role8.jpg');
+    /* background-image: url('https://bkimg.cdn.bcebos.com/pic/a2cc7cd98d1001e942bbd325b60e7bec54e79711?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5/format,f_auto'); */
+}
+
+.icon-custom.collect-task {
+    position: relative;
+    /* background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png'); */
+    background-image: url('../assets/role9.png');
+    /* background-image: url('https://bkimg.cdn.bcebos.com/pic/a2cc7cd98d1001e942bbd325b60e7bec54e79711?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5/format,f_auto'); */
+}
+
+.icon-custom.lindaidai-task::after {
+    font-size: 12px;
+    /* content: 'CHY'; */
+    position: absolute;
+    top: 17px;
+    left: 0;
+}
+
+.icon-custom.icon-custom-start {
+    background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/start.png');
+}
+
+.icon-custom-flow {
+    background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/flow.png');
+}
+
+.icon-custom-edit {
+    background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/edit.png');
+}
+
+.icon-custom-delete {
+    background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/delete.png');
+}
+
+
+/* label标签 */
+
+
+/* .djs-direct-editing-parent {
+    top: 130px!important;
+    width: 60px!important;
+} */
+
+
+/* 自定义 contextPad 的样式 */
+
+.djs-context-pad .lindaidai-task.entry:hover {
+    background: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png') center no-repeat !important;
+    background-size: cover !important;
+}
+
+.djs-context-pad .icon-custom-start.entry:hover {
+    background: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/start.png') center no-repeat !important;
+    background-size: cover !important;
+}
+
+.djs-context-pad .icon-custom-end.entry:hover {
+    background: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/end.png') center no-repeat !important;
+    background-size: cover !important;
+}
+
+.djs-context-pad .icon-custom-flow.entry:hover {
+    background: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/flow.png') center no-repeat !important;
+    background-size: cover !important;
+}
+
+.djs-context-pad .icon-custom-edit.entry:hover {
+    background: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/edit.png') center no-repeat !important;
+    background-size: cover !important;
+}
+
+.djs-context-pad .icon-custom-delete.entry:hover {
+    background: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/delete.png') center no-repeat !important;
+    background-size: cover !important;
+}
+
+.djs-context-pad .entry:hover {
+    border: 1px solid #1890ff;
+}
+
+.djs-context-pad .entry {
+    box-sizing: border-box;
+    background-size: 94%;
+    transition: all 0.3s;
+    box-sizing: border-box;
+}
+
+.green-text-annotation.bpmn-icon-text-annotation {
+    color: green;
+}

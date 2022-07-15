@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+ attributeFormDefault="qualified"
+ xmlns:bpmnii="http://www.BpmnExtensions.com/bpmnii/source"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ targetNamespace="http://www.BpmnExtensions.com/bpmnii/source">
+
+ <xsd:element name="PrivacyTask" type="TPrivacyTask" substitutionGroup="BaseElement" />
+ <xsd:complexType name="TPrivacyTask">
+    <xsd:complexContent>
+        <xsd:extension base="tTask">
+            <xsd:attribute name="Format" type="xsd:boolean" use="required"/>
+        </xsd:extension>
+    </xsd:complexContent>
+ </xsd:complexType>
+ 
+ <xsd:element name="IndustrialRobotsTask" type="TRobotsTask" substitutionGroup="BaseElement" />
+ <xsd:complexType name="TRobotsTask">
+    <xsd:complexContent>
+        <xsd:extension base="tTask">
+            <xsd:attribute name="Format" type="xsd:string" use="required"/>
+        </xsd:extension>
+    </xsd:complexContent>
+ </xsd:complexType>
+ 
+ <xsd:element name="ImageTask" type="TImageTask" substitutionGroup="BaseElement" />
+ <xsd:complexType name="TImageTask">
+    <xsd:complexContent>
+        <xsd:extension base="tTask">
+            <xsd:attribute name="Format" type="xsd:integer" use="required"/>          
+        </xsd:extension>
+    </xsd:complexContent>
+ </xsd:complexType>
+ 
+ <xsd:element name="SensorTask" type="TSensorTask" substitutionGroup="BaseElement" />
+ <xsd:complexType name="TSensorTask">
+    <xsd:complexContent>
+        <xsd:extension base="tTask">
+            <xsd:attribute name="Format" type="xsd:string" use="required"/>          
+        </xsd:extension>
+    </xsd:complexContent>
+ </xsd:complexType>
+ 
+ <xsd:element name="AudioTask" type="TAudioTask" substitutionGroup="BaseElement" />
+ <xsd:complexType name="TAudioTask">
+    <xsd:complexContent>
+        <xsd:extension base="tTask">
+            <xsd:attribute name="Format" type="xsd:integer" use="required"/>          
+        </xsd:extension>
+    </xsd:complexContent>
+ </xsd:complexType>
+ 
+ <xsd:element name="CollectTask" type="TCollectTask" substitutionGroup="BaseElement" />
+ <xsd:complexType name="TCollectTask">
+    <xsd:complexContent>
+        <xsd:extension base="tTask">
+            <xsd:attribute name="Format" type="xsd:string" use="required"/>          
+        </xsd:extension>
+    </xsd:complexContent>
+ </xsd:complexType>
+ 
+ <xsd:element name="IntelligentReadingTask" type="TIntelligentReadingTask" substitutionGroup="BaseElement" />
+ <xsd:complexType name="TIntelligentReadingTask">
+    <xsd:complexContent>
+        <xsd:extension base="tTask">
+            <xsd:attribute name="Format" type="xsd:string" use="required"/>          
+        </xsd:extension>
+    </xsd:complexContent>
+ </xsd:complexType>
+</xsd:schema>
+
