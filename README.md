@@ -1,5 +1,10 @@
 # BPMN-plusplus
 This is the BPMN modeling element base extension mechanism, you can extend your own elements according to business needs.
+## How to extend?
+
+### Firstly, the BPMN element extension is modified by modifying the source code of the modeling toolbar, mainly in CustomPalette.js, custom-palette.vue.
+
+Secondly, in order to make the extended elements appear on the canvas, CustomRenderer.js and custom-renderer.vue also need to be modified.
 
 ## BPMNPlusPlus tool
 ![image](https://github.com/HangyuCheng/BPMN-plusplus/blob/main/src/images/BPMN%20Extension.png)
