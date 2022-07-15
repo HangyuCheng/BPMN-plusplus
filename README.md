@@ -9,6 +9,7 @@ Secondly, in order to make the extended elements appear on the canvas, CustomRen
 
 ## BPMNPlusPlus tool
 The red square is an extension element based on the industrial Internet business scenario
+
 ![image](https://github.com/HangyuCheng/BPMN-plusplus/blob/main/src/images/BPMN-Extension.png)
 ## BPMNPlusPlus meta-model
  White is a BPMN native element, brown is an extended element based on manufacturing business needs.
