@@ -14,6 +14,9 @@ This is an extensible business process modeling tool based on the BPMN.io implem
 ## BPMNPlusPlus meta-model
  White is a BPMN native element, brown is an extended element based on manufacturing business needs.
 ![image](https://github.com/HangyuCheng/BPMN-plusplus/blob/main/src/images/meta-model.png)
+
+## Contact
+Email:orangechy97@gmail.com
 ## Installing dependencies
 npm install
 ## Launch Project
