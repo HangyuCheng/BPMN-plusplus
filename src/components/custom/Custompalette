@@ -1,0 +1,53 @@
+export default class CustomPalette {
+    constructor(bpmnFactory, create, elementFactory,translate) {
+        this.bpmnFactory = bpmnFactory;
+        this.create = create;
+        this.elementFactory = elementFactory;
+        this.translate = translate;
+
+        palette.registerProvider(this);
+    }
+
+    getPaletteEntries(element) {
+        const {
+            bpmnFactory,
+            create,
+            elementFactory,
+            translate
+        } = this;
+
+        function createTask() {
+            return function(event) {
+
+                console.log(event.type+"taskkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk")
+
+                const businessObject = bpmnFactory.create('bpmn:Task');
+
+                const shape = elementFactory.createShape({
+                    type: 'bpmn:Task',
+                    businessObject,
+                    
+                });
+        
+                create.start(event, shape);
+            
+
+            }
+        }
+        }
+
+        return  {
+            // content
+            },
+
+    }
+}
+
+}
+
+CustomPalette.$inject = [
+    'bpmnFactory',
+    'create',
+    'elementFactory',
+    'translate'
+]
