@@ -11,9 +11,10 @@ Secondly, in order to make the extended elements appear on the canvas, CustomRen
 This is an extensible business process modeling tool based on the BPMN.io implementation,and the red square is an extension element based on the industrial Internet business scenario
 
 ![image](https://github.com/HangyuCheng/BPMN-plusplus/blob/main/src/images/BPMN-Extension.png)
-## BPMNPlusPlus meta-model
+<!---## BPMNPlusPlus meta-model
  White is a BPMN native element, brown is an extended element based on manufacturing business needs.
 ![image](https://github.com/HangyuCheng/BPMN-plusplus/blob/main/src/images/meta-model.png)
+-->
 
 ## Contact
 Email:orangechy97@gmail.com
