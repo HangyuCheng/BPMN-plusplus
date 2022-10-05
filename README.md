@@ -8,7 +8,7 @@ Secondly, in order to make the extended elements appear on the canvas, CustomRen
 ![image](https://github.com/HangyuCheng/BPMN-plusplus/blob/main/src/images/BPMN-toolbar.png)
 
 ## BPMNPlusPlus tool
-This is an extensible business process modeling tool based on the BPMN.io implementation,and the red square is an extension element based on the industrial Internet business scenario
+This is an extensible business process modeling tool based on the BPMN.io implementation,and the red square is an extension element based on the industrial Internet business scenario.
 
 ![image](https://github.com/HangyuCheng/BPMN-plusplus/blob/main/src/images/BPMN-Extension.png)
 <!---## BPMNPlusPlus meta-model
